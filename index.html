@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal - José Vázquez</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>José Vázquez</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio">
+      <img src="./profile.jpg" alt="Imagen de fondo">
+      <h2> <br> ¡Hola! Soy José Luis Vázquez Banda</h2>
+      <p>Ingeniero en Sistemas con un gran interes por el aprendizaje continuo
+      </p>
+      <a href="#proyectos" class="boton">Ver mis proyectos</a>
+    </section>
+    <section id="sobre-mi">
+      <h2><br>Sobre mí</h2>
+        <p><br>Soy una persona versátil y apasionada.</p>
+        <p>Tengo amplio dominio del idioma Ingles.</p>
+        <p>Además, soy un doble graduado con dos carreras universitarias.</p>
+    </section>
+    <section id="proyectos">
+      <h2><br>Proyectos</h2>
+      <div class="proyectos">
+        <div class="proyecto">
+          <img src="chatbot.jpg" alt="Imagen del proyecto 1">
+          <h3><br>Creación de ChatBot con FastAPI</h3>
+          <a href="#">Ver más</a>
+        </div>
+        <div class="proyecto">
+          <img src="ia.jpg" alt="Imagen del proyecto 3">
+          <h3><br>Modelo de Prediccion de Precios de Casas</h3>
+          <a href="#">Ver más</a>
+        </div>
+        <div class="proyecto">
+          <img src="api.png" alt="Imagen del proyecto 2">
+          <h3><br>Api de Personajes de Rick y Morty</h3>
+          <a href="#">Ver más</a>
+        </div>
+      </div>
+    </section>
+    <section id="habilidades">
+      <h2><br>Habilidades</h2>
+      <ul class="habilidades-grid">
+        <li>Comunicación Acertiva</li>
+        <li>Dominio de Ingles</li>
+        <li>Conocimiento sobre IA</li>
+        <li>Manejo de Angular</li>
+        <li>Manejo de Python</li>
+        <li>Conocimiento de Analisis de Datos</li>
+      </ul>
+    </section>
+    <section id="contacto">
+      <h2><br>Contacto</h2>
+      <form action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        <button type="submit">Enviar <br></button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
